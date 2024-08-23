@@ -1,0 +1,37 @@
+.question-title
+{
+    background-color: lightgray; 
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: left;
+    margin: top 0px;
+    padding: 0 auto;
+  
+}
+.highlighted-text
+{
+    color: red;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-title {
+    flex: 1; 
+    height: 30px;
+    margin-left: 20px;
+    box-sizing: border-box; 
+  }
+
+  .input-description
+  { display: flex;
+    flex-direction: column;
+  }
+  .input-description {
+    height: 400px;
+    box-sizing: border-box; 
+  }

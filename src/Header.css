@@ -1,0 +1,24 @@
+.newpost
+{
+    background-color: lightgray; 
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: left;
+    margin: top 0px;
+    padding: 0 auto;
+  
+}
+.button{
+    display: flex;
+    align-items: center;
+  }
+  .ui.radio {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px; 
+  }
+  .ui.radio input[type="radio"] {
+    accent-color: #000; 
+  }

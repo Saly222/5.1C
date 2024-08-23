@@ -1,0 +1,53 @@
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.Tag {
+    flex: 1;
+    width: 400px; 
+    height: 30px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding: 0;
+    text-align: left;
+}
+
+.Tag::placeholder {
+    font-size: medium;
+}
+
+.button-container
+{
+    display: flex;
+    float: right;
+  
+}
+.ui.button {
+    width: 200px; 
+    border: 5px solid gray;
+    padding: 10px 20px; 
+    background-color: gray;
+    font-size: larger;
+    border-radius: 5px;
+    color: #333;
+    text-align: center; 
+    display: inline-block; 
+    transition: all 0.3s ease;
+}
+
+.ui.button:hover {
+    background-color: gray;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.ui.button:active {
+    background-color: gray;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(2px);
+}
+
+
+
+
+
